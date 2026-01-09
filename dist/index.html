@@ -7,8 +7,8 @@
   <title>Abisheik | Creative Technologist</title>
   <meta name="description" content="Physics-driven portfolio of a Creative Technologist." />
   <!-- Preload critical fonts here later -->
-  <script type="module" crossorigin src="/assets/index-BDdyylf2.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-CTbkHycE.css">
+  <script type="module" crossorigin src="/assets/main-BvOfsxfv.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/main-CDhNCzoS.css">
 </head>
 
 <body>
@@ -22,98 +22,51 @@
   <!-- The WebGL World (Z-Index: -1) -->
   <canvas id="webgl"></canvas>
 
-  <!-- Navigation Dock (Fixed UI) -->
-  <nav class="dock-nav">
-    <ul class="dock-list">
-      <li class="dock-item" data-target="#hero"><span class="icon">Start</span></li>
-      <li class="dock-item" data-target="#work"><span class="icon">Work</span></li>
-      <li class="dock-item" data-target="#about"><span class="icon">About</span></li>
-      <li class="dock-item" data-target="#connect"><span class="icon">Connect</span></li>
-    </ul>
-  </nav>
+  <!-- Navigation Dock (Injected via Navbar.js) -->
 
   <!-- Smooth Scroll Wrapper -->
   <main id="smooth-wrapper">
     <div id="smooth-content">
 
       <!-- SECTION 1: HERO (The Hook) -->
-      <section id="hero" class="section hero-section">
+      <section id="hero" class="section hero-section" data-component="hero">
         <div class="hero-content">
-          <h1 class="glitch-text" data-text="ABISHEIK">ABISHEIK</h1>
-          <p class="role-descriptor">Creative Technologist &<br>Interaction Engineer</p>
-          <div class="scroll-indicator">
-            <span class="line"></span>
-            <span class="label">EXPLORE</span>
-          </div>
+          <h1 class="glitch-text" data-text="ABISHEIK" data-ui="hero-title">ABISHEIK</h1>
+          <p class="role-descriptor" data-ui="hero-role">Creative Technologist &<br>Interaction Engineer</p>
+          <!-- Scroll Indicator Removed -->
         </div>
 
         <!-- New Hero Cluster (3D Background) -->
         <div class="hero-visuals">
-          <div class="hero-card c1"></div>
-          <div class="hero-card c2"></div>
-          <div class="hero-card c3"></div>
-          <div class="hero-card c4"></div>
+          <div class="hero-card c1" data-ui="hero-card"></div>
+          <div class="hero-card c2" data-ui="hero-card"></div>
+          <div class="hero-card c3" data-ui="hero-card"></div>
+          <div class="hero-card c4" data-ui="hero-card"></div>
         </div>
       </section>
 
       <!-- SECTION 2: SELECTED WORKS (The Evidence) -->
       <!-- Concept: Items rotate in 3D space as they enter viewport -->
-      <section id="work" class="section work-section">
-        <div class="section-header">
-          <h2>Select_Works</h2>
-          <span class="count">03</span>
-        </div>
-
-        <div class="project-gallery">
-          <!-- Project 1 -->
-          <article class="project-card" data-speed="1.1">
-            <div class="card-visual">
-              <div class="placeholder-img"></div>
-            </div>
-            <div class="card-info">
-              <h3>Nebula Core</h3>
-              <p>WebGL Interface</p>
-            </div>
-          </article>
-
-          <!-- Project 2 -->
-          <article class="project-card" data-speed="0.9">
-            <div class="card-visual">
-              <div class="placeholder-img"></div>
-            </div>
-            <div class="card-info">
-              <h3>Quantum Systems</h3>
-              <p>Design System</p>
-            </div>
-          </article>
-
-          <!-- Project 3 -->
-          <article class="project-card" data-speed="1.2">
-            <div class="card-visual">
-              <div class="placeholder-img"></div>
-            </div>
-            <div class="card-info">
-              <h3>Echo Chamber</h3>
-              <p>Audio Visualization</p>
-            </div>
-          </article>
-        </div>
-      </section>
+      <!-- SECTION 2 REMOVED: Projects moved to projects.html -->
 
       <!-- SECTION 3: TECHNICAL ARSENAL (The About - Redefined) -->
       <section id="about" class="section about-section">
         <div class="about-grid">
           <div class="bio-text">
-            <p>I build digital organisms. My work bridges the gap between <span class="highlight">design
-                precision</span> and <span class="highlight">engineering chaos</span>.</p>
+            <p></p> <!-- Injected by About.js -->
           </div>
-          <ul class="skill-list">
-            <li>Three.js / WebGL</li>
-            <li>React / Next.js</li>
-            <li>GLSL Shaders</li>
-            <li>Node.js Systems</li>
-          </ul>
         </div>
+      </section>
+
+      <!-- SECTION 3.5: SKILLS (Dedicates Section) -->
+      <section id="skills" class="section skills-section">
+        <div class="section-header">
+          <h2>Technical_Arsenal</h2>
+          <span class="count">SYS</span>
+        </div>
+        <ul class="skill-list">
+          <!-- Injected by Skills.js -->
+        </ul>
       </section>
 
       <!-- SECTION 3.5: EXPERIENCE (The Journey) -->
@@ -127,8 +80,6 @@
         </div>
       </section>
 
-      </section>
-
       <!-- SECTION 3.8: CERTIFICATIONS (The Proof) -->
       <section id="awards" class="section awards-section">
         <div class="section-header">
@@ -140,18 +91,9 @@
         </div>
       </section>
 
-      <!-- SECTION 4: THE PHYSIC PLAYGROUND (Connect) -->
-      <!-- Interactive physics elements that fall and collide -->
-      <section id="connect" class="section connect-section">
-        <div class="physics-container">
-          <div class="physics-item pill">Email Me</div>
-          <div class="physics-item circle">GitHub</div>
-          <div class="physics-item block">LinkedIn</div>
-          <div class="physics-item pill">Twitter</div>
-        </div>
-        <footer>
-          <p>&copy; 2026 Antigravity Systems</p>
-        </footer>
+      <!-- SECTION 4: CONTACT & FOOTER -->
+      <section id="connect" class="section contact-section">
+        <!-- Injected via JS (Contact.js) -->
       </section>
 
     </div>

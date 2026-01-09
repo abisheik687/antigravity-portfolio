@@ -1,3 +1,4 @@
+import resumeData from '../data/resume.json';
 
 export class DataManager {
     constructor() {
@@ -6,8 +7,8 @@ export class DataManager {
 
     async load() {
         try {
-            const response = await fetch('./src/data/resume.json');
-            this.data = await response.json();
+            // In Vite, importing JSON bundles it into the build, removing the need for fetch
+            this.data = resumeData;
             return this.data;
         } catch (e) {
             console.error('Failed to load resume data:', e);
