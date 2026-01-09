@@ -1,0 +1,296 @@
+{
+    "profile": {
+        "name": "Abisheik S",
+        "role": "Software Developer | AI Engineer",
+        "location": "Tamil Nadu, India",
+        "tagline": "Bridging the gap between design precision and engineering chaos.",
+        "email": "abisheik172@gmail.com",
+        "phone": "+91 6382370094",
+        "social": {
+            "linkedin": "https://linkedin.com/in/abisheiks",
+            "github": "https://github.com/abisheik687",
+            "whatsapp": "https://wa.me/916382370094"
+        },
+        "summary": "I don’t just build software; I engineer intelligence.\n\nOperating at the intersection of Software Development and Artificial Intelligence, I design systems where code reasons, adapts, and scales. My work spans LLM-powered agents, Generative AI pipelines, and full-stack applications built to solve real-world problems—from AI-driven code debugging and talent matching to policy synthesis and data analysis.\n\nI’m not chasing titles. I’m looking for problems that demand depth, clarity, and intelligent engineering.",
+        "highlights": [
+            "25% Perf Boost at Seyfert",
+            "Oracle GenAI Professional",
+            "Shell AI Intern"
+        ]
+    },
+    "experience": [
+        {
+            "role": "Green Intern",
+            "company": "1M1B Foundation",
+            "period": "Sep 2025 – Oct 2025",
+            "type": "Internship",
+            "description": "Focused on sustainability and social impact initiatives.",
+            "achievements": [
+                "Contributed to green initiatives and sustainability workflows",
+                "Collaborated with cross-functional teams on social impact projects"
+            ]
+        },
+        {
+            "role": "Web Development Intern",
+            "company": "Seyfert Infotech",
+            "period": "Feb 2025",
+            "type": "Internship",
+            "description": "Built responsive web applications and optimized performance.",
+            "achievements": [
+                "Built responsive web applications using HTML, CSS, Bootstrap, and JavaScript",
+                "Improved page performance by 25% via asset optimization",
+                "Ensured cross-browser compatibility across all viewports"
+            ]
+        },
+        {
+            "role": "Artificial Intelligence Intern",
+            "company": "Shell",
+            "period": "Dec 2024 – Jan 2025",
+            "type": "Internship",
+            "description": "Worked on AI/ML data workflows for sustainability.",
+            "achievements": [
+                "Performed exploratory data analysis using Python and Pandas",
+                "Participated in AI and Cloud Analytics workshops",
+                "Developed data workflows for sustainability initiatives"
+            ]
+        },
+        {
+            "role": "Campus Ambassador",
+            "company": "EDC IIT Delhi",
+            "period": "Dec 2023 – Feb 2024",
+            "type": "Remote",
+            "description": "Led promotional campaigns and collaborated with national leaders.",
+            "achievements": [
+                "Ranked among top ambassadors nationally",
+                "Led promotional campaigns for entrepreneurship events",
+                "Collaborated with national-level student leaders"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "B.Tech Information Technology",
+            "institution": "Mailam Engineering College (Anna University)",
+            "year": "Dec 2022 – May 2026",
+            "score": "Final Year",
+            "coursework": [
+                "Artificial Intelligence",
+                "Cloud Computing",
+                "Data Structures",
+                "Cybersecurity"
+            ]
+        },
+        {
+            "degree": "Higher Secondary Education",
+            "institution": "Amalorpavam Higher Secondary School",
+            "year": "Completed",
+            "score": "",
+            "coursework": []
+        }
+    ],
+    "hard_skills": [
+        {
+            "name": "Python",
+            "desc": "Generative AI, NLP, Machine Learning, Data Analysis, Backend APIs"
+        },
+        {
+            "name": "Java",
+            "desc": "Object-Oriented Programming, Data Structures & Algorithms, Backend Development"
+        },
+        {
+            "name": "C",
+            "desc": "Core Programming, Memory Management, Algorithmic Problem Solving"
+        }
+    ],
+    "skills": {
+        "AI & Data Intelligence": [
+            "Generative AI",
+            "LLMs & RAG",
+            "NLP & Prompt Eng",
+            "AI Agent Design",
+            "TensorFlow / PyTorch",
+            "Vector DBs",
+            "Pandas / NumPy",
+            "Data Visualization (Power BI)"
+        ],
+        "Web, Backend & Services": [
+            "JavaScript (ES6+)",
+            "React.js",
+            "Next.js",
+            "Node.js",
+            "Express.js",
+            "Python",
+            "Java",
+            "RESTful APIs",
+            "Microservices Arch",
+            "Database Design (SQL/NoSQL)"
+        ],
+        "Cloud, DevOps & Strategies": [
+            "Oracle Cloud (OCI)",
+            "Google Cloud (GCP)",
+            "AWS (Practitioner)",
+            "CI/CD / Docker",
+            "System Design",
+            "Agile / Scrum",
+            "Cybersecurity Basics",
+            "Git & VS Code"
+        ]
+    },
+    "certifications": [
+        {
+            "title": "Oracle Cloud Infrastructure Generative AI Professional",
+            "issuer": "Oracle",
+            "year": "2025"
+        },
+        {
+            "title": "Cloud Data Engineering",
+            "issuer": "Oracle",
+            "year": "2024"
+        },
+        {
+            "title": "Google Cybersecurity IT Specialist",
+            "issuer": "Google",
+            "year": "2025"
+        },
+        {
+            "title": "Junior Cybersecurity Analyst Career Path",
+            "issuer": "Cisco / Other",
+            "year": "2025"
+        },
+        {
+            "title": "HTML5 Application Development",
+            "issuer": "Various",
+            "year": "2024"
+        }
+    ],
+    "projects": [
+        {
+            "id": "intellifix",
+            "title": "IntelliFix",
+            "type": "Featured",
+            "category": "Generative AI · Developer Tools",
+            "description": "An AI-powered debugging system that analyzes source code, detects logical and syntactic issues, and generates intelligent fix suggestions using large language models.",
+            "key_features": [
+                "Automated code analysis",
+                "LLM-based fix recommendations",
+                "Error explanation with reasoning",
+                "Developer-centric workflow"
+            ],
+            "tech": [
+                "Python",
+                "LLMs",
+                "NLP",
+                "Prompt Engineering",
+                "Backend APIs"
+            ],
+            "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=2070&auto=format&fit=crop",
+            "link": "#"
+        },
+        {
+            "id": "talentalign",
+            "title": "TalentAlign AI",
+            "type": "Featured",
+            "category": "AI Systems · HR Tech",
+            "description": "An AI-driven talent matching platform that evaluates candidate profiles against job requirements using intelligent scoring, ranking, and recommendation logic.",
+            "key_features": [
+                "Resume-to-role matching",
+                "Candidate scoring algorithms",
+                "AI-based recommendations",
+                "Scalable system design"
+            ],
+            "tech": [
+                "Python",
+                "Machine Learning",
+                "NLP",
+                "Backend Architecture"
+            ],
+            "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=2065&auto=format&fit=crop",
+            "link": "#"
+        },
+        {
+            "id": "satellite-feature",
+            "title": "AI Satellite Detection",
+            "type": "Featured",
+            "category": "Machine Learning · Computer Vision",
+            "description": "A machine learning system for detecting and classifying features from satellite imagery. The project focuses on spatial data analysis and model-driven feature extraction.",
+            "key_features": [
+                "Image preprocessing pipelines",
+                "Feature detection models",
+                "Classification & analysis",
+                "Real-world geospatial use case"
+            ],
+            "tech": [
+                "Python",
+                "Computer Vision",
+                "Machine Learning",
+                "Data Processing"
+            ],
+            "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop",
+            "link": "#"
+        },
+        {
+            "id": "climate-agent",
+            "title": "Climate Policy Agent",
+            "type": "Featured",
+            "category": "AI Agents · NLP",
+            "description": "An intelligent AI agent that synthesizes large volumes of climate policy documents into structured, concise insights.",
+            "key_features": [
+                "Multi-document analysis",
+                "Policy summarization",
+                "Insight synthesis",
+                "Agent-based architecture"
+            ],
+            "tech": [
+                "Python",
+                "NLP",
+                "LLMs",
+                "Agent Design"
+            ],
+            "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2070&auto=format&fit=crop",
+            "link": "#"
+        },
+        {
+            "id": "genalyze",
+            "title": "Genalyze AI",
+            "type": "Supporting",
+            "category": "AI Analytics",
+            "description": "An AI-powered analytics system that processes datasets and generates meaningful insights through automated analysis and summarization.",
+            "tech": [
+                "Python",
+                "Data Analysis",
+                "AI Models"
+            ],
+            "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+            "link": "#"
+        },
+        {
+            "id": "stackit",
+            "title": "StackIt",
+            "type": "Supporting",
+            "category": "Full-Stack Development",
+            "description": "A lightweight question-and-answer platform implementing core community features such as posting, answering, and structured discussions.",
+            "tech": [
+                "Frontend Framework",
+                "Backend APIs",
+                "Database"
+            ],
+            "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2069&auto=format&fit=crop",
+            "link": "#"
+        },
+        {
+            "id": "portfolio",
+            "title": "Portfolio Website",
+            "type": "Supporting",
+            "category": "Frontend Engineering · UI/UX",
+            "description": "A modern, responsive developer portfolio showcasing projects, skills, and experience with clean design, smooth animations, and scalable architecture.",
+            "tech": [
+                "Next.js",
+                "Tailwind CSS",
+                "TypeScript",
+                "GSAP"
+            ],
+            "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=2055&auto=format&fit=crop",
+            "link": "#"
+        }
+    ]
+}

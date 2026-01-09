@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abisheik | Selected Projects</title>
+    <meta name="description" content="Projects by Abisheik - AI, Full-Stack, and ML Systems" />
+    <link rel="stylesheet" href="./src/styles/main.css" />
+</head>
+
+<body>
+    <!-- The WebGL World (Z-Index: -1) - Shared BG -->
+    <canvas id="webgl"></canvas>
+
+    <!-- Navigation Dock (Injected via Navbar.js) -->
+
+    <main id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <section class="section header-section" style="padding-top: 15vh;">
+                <div class="hero-content">
+                    <h1 class="glitch-text" data-text="PROJECTS" style="font-size: clamp(3rem, 10vw, 8rem);">PROJECTS
+                    </h1>
+                    <p class="role-descriptor">Selected Works & Engineering Case Studies</p>
+                </div>
+            </section>
+
+            <!-- Full Project Grid -->
+            <section id="work-full" class="section work-section" data-component="projects-full">
+                <!-- Injected via Projects.js in 'full' mode -->
+            </section>
+
+            <!-- Initial Contact Block (Reuse or simplied) -->
+            <section id="connect" class="section contact-section">
+                <!-- Injected via Contact.js -->
+            </section>
+        </div>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

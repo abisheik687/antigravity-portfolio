@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abisheik | Creative Technologist</title>
+  <meta name="description" content="Physics-driven portfolio of a Creative Technologist." />
+  <!-- Preload critical fonts here later -->
+  <link rel="stylesheet" href="./src/styles/main.css" />
+</head>
+
+<body>
+  <!-- 
+      NARRATIVE FLOW:
+      1. Canvas Fixed Layer: The 3D world that persists behind the content.
+      2. UI Overlay: Fixed elements like Navigation and Cursors.
+      3. Smooth Scroll Container: The physical content that moves.
+    -->
+
+  <!-- The WebGL World (Z-Index: -1) -->
+  <canvas id="webgl"></canvas>
+
+  <!-- Navigation Dock (Injected via Navbar.js) -->
+
+  <!-- Smooth Scroll Wrapper -->
+  <main id="smooth-wrapper">
+    <div id="smooth-content">
+
+      <!-- SECTION 1: HERO (The Hook) -->
+      <section id="hero" class="section hero-section" data-component="hero">
+        <div class="hero-content">
+          <h1 class="glitch-text" data-text="ABISHEIK" data-ui="hero-title">ABISHEIK</h1>
+          <p class="role-descriptor" data-ui="hero-role">Creative Technologist &<br>Interaction Engineer</p>
+          <!-- Scroll Indicator Removed -->
+        </div>
+
+        <!-- New Hero Cluster (3D Background) -->
+        <div class="hero-visuals">
+          <div class="hero-card c1" data-ui="hero-card"></div>
+          <div class="hero-card c2" data-ui="hero-card"></div>
+          <div class="hero-card c3" data-ui="hero-card"></div>
+          <div class="hero-card c4" data-ui="hero-card"></div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: SELECTED WORKS (The Evidence) -->
+      <!-- Concept: Items rotate in 3D space as they enter viewport -->
+      <!-- SECTION 2 REMOVED: Projects moved to projects.html -->
+
+      <!-- SECTION 3: TECHNICAL ARSENAL (The About - Redefined) -->
+      <section id="about" class="section about-section">
+        <div class="about-grid">
+          <div class="bio-text">
+            <p></p> <!-- Injected by About.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3.5: SKILLS (Dedicates Section) -->
+      <section id="skills" class="section skills-section">
+        <div class="section-header">
+          <h2>Technical_Arsenal</h2>
+          <span class="count">SYS</span>
+        </div>
+        <ul class="skill-list">
+          <!-- Injected by Skills.js -->
+        </ul>
+      </section>
+
+      <!-- SECTION 3.5: EXPERIENCE (The Journey) -->
+      <section id="experience" class="section experience-section">
+        <div class="section-header">
+          <h2>Experience_Log</h2>
+          <span class="count">XP</span>
+        </div>
+        <div class="timeline-container">
+          <!-- Injected via JS -->
+        </div>
+      </section>
+
+      <!-- SECTION 3.8: CERTIFICATIONS (The Proof) -->
+      <section id="awards" class="section awards-section">
+        <div class="section-header">
+          <h2>Credentials</h2>
+          <span class="count">Auth</span>
+        </div>
+        <div class="cert-grid">
+          <!-- Injected via JS -->
+        </div>
+      </section>
+
+      <!-- SECTION 4: CONTACT & FOOTER -->
+      <section id="connect" class="section contact-section">
+        <!-- Injected via JS (Contact.js) -->
+      </section>
+
+    </div>
+  </main>
+
+  <!-- App Entry -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
